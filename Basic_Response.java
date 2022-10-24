@@ -106,7 +106,7 @@ public  static  final String base_URL ="https://catfact.ninja/fact";
         public  void github_post_Test()
         {
             final String Github_URL = "https://api.github.com/user/issues";
-            final String G_token = "ghp_GHL_l%&+?671UA&=ghj8?7462";
+            final String G_token = "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
             //from: https://docs.github.com/en/enterprise-cloud@latest/rest/overview/other-authentication-methods
             // curl -v -H "Authorization: token TOKEN" https://api.github.com/user/issues
