@@ -106,7 +106,7 @@ public  static  final String base_URL ="https://catfact.ninja/fact";
         public  void github_post_Test()
         {
             final String Github_URL = "https://api.github.com/user/issues";
-            final String G_token = "ghp_GHL/%&/?671U?6&=ghj87462";
+            final String G_token = "ghp_GHL_l%&+?671U6&=ghj8?7462";
 
             //from: https://docs.github.com/en/enterprise-cloud@latest/rest/overview/other-authentication-methods
             // curl -v -H "Authorization: token TOKEN" https://api.github.com/user/issues
@@ -252,7 +252,7 @@ public  static  final String base_URL ="https://catfact.ninja/fact";
     @org.testng.annotations.Test
     public void getList(){
         given(requestSpecification).
-                basePath("/gmail/v1").pathParam("userId","abhishek.chauhan@classplus.co").
+                basePath("/gmail/v1").pathParam("userId","kalle.pelle@gmail.com").
 
                 when().
                     get("/users/{userId}/messages").
